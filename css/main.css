@@ -217,7 +217,7 @@ section:nth-of-type(3) h2 {
 .twentyFiveWidth img:not(.cart) {
   /*   border: 1px solid blue; */
   width: 100%;
-  height: 70%;
+  height: 100%;
   margin-top: -85px;
   position: relative;
 }
