@@ -92,7 +92,6 @@ function featuredProducts(dFeatures) {
 
       data +=
         '<span class="starfill">&#9733;</span><span class="starfill">&#9733;</span><span class="starfill">&#9733;</span><span class="starfill">&#9733;</span><span class="staroutline">&#9734;</span>';
-      data += '<br/><br/>';
       data += '<p><strong>' + dFeatures.products[i].title + '</strong></p>';
       data += '<p><em>' + dFeatures.products[i].description + '</em></p>';
       data += '<br/>';

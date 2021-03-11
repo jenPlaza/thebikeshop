@@ -1,0 +1,338 @@
+/*************************CTA***************************/
+.thirtyTwoWidth h2 {
+  width: 100%;
+  height: auto;
+  background-color: #111111;
+  opacity: 0.6;
+  top: -25px;
+}
+.thirtyTwoWidth h3 strong {
+  padding: 10px 20px 10px 20px;
+  background-color: #c0392b;
+  top: -15px;
+  position: relative;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+section:nth-of-type(2) {
+  background-color: #111111;
+  padding: 1% 3% 1% 3%;
+}
+section:nth-of-type(2) img {
+  /*  border: 1px solid aqua; */
+  width: 100%;
+  height: 100%;
+  margin-top: -275px;
+}
+
+section:nth-of-type(2) p,
+section:nth-of-type(2) h2,
+.addCart p,
+.cartNo p {
+  padding: 1%;
+  position: relative;
+  color: #ffffff;
+  margin-top: 10%;
+  text-transform: uppercase;
+  display: block;
+}
+
+/**************************Feature Products**************************/
+.twentyFiveWidth strong em {
+  color: #888888;
+  font-style: normal;
+  text-transform: capitalize;
+  text-decoration: line-through;
+}
+
+.twentyFiveWidth p:last-child {
+  /*   border: 1px solid green; */
+  position: absolute;
+  bottom: 0;
+}
+
+.redSale,
+.redSaleNo {
+  padding: 1%;
+  color: #ffffff;
+  margin: 0;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  background-color: #c0392b;
+  z-index: 1;
+  transform: skew(-10deg);
+  position: inherit;
+}
+.redSaleNo,
+.cartNo {
+  visibility: hidden;
+  position: relative;
+}
+.addCart,
+.cartNo {
+  width: 100%;
+  height: 35px;
+  background-color: #111111;
+  opacity: 0.7;
+  margin-top: -38px;
+  position: relative;
+}
+.addCart p {
+  padding-top: 10px;
+  position: relative;
+}
+.cart {
+  float: left;
+  margin-top: 5px;
+  margin-left: 45%;
+  padding-right: 10px;
+  width: 25px;
+  height: 25px;
+  position: relative;
+}
+
+.cart img {
+  margin-top: -70px;
+  position: relative;
+}
+.starfill {
+  color: #c0392b;
+  position: relative;
+}
+.staroutline {
+  color: #666666;
+  position: relative;
+}
+
+/**************************cycleClub**************************/
+.twentyWidth p {
+  text-align: left;
+  margin: 10px 5px 10px 25px;
+  color: #dddddd;
+  font-weight: 100;
+}
+form[method='post'] {
+  margin-top: 20px;
+}
+input {
+  height: 22px;
+}
+#index button {
+  background-color: #c0392b;
+  color: #ffffff;
+  height: 28px;
+  border: none;
+  margin-top: 10px;
+}
+#mailingList,
+#thankYou {
+  display: none;
+}
+#mailingList input,
+select,
+option {
+  color: #111111;
+}
+#signUpBox {
+  margin: -30% 0px 0px 30%;
+  padding: 5%;
+  width: 30%;
+  height: auto;
+  background-color: white;
+  position: relative;
+}
+#signUpBox section {
+  margin-top: 55px;
+}
+#signUpBox label {
+  margin: 20px 0px 0px 0px;
+  color: grey;
+  text-align: left;
+}
+#signUpBox input {
+  width: 100%;
+  text-align: left;
+}
+
+/* BREAKPOINTS*
+  / *===================================================
+  ================================================== */
+
+@media screen and (min-width: 375px) {
+  /*   ====== header ====== */
+  nav {
+    height: 150px;
+  }
+  nav a {
+    width: calc(100% / 2.1);
+    height: 75px;
+    padding-top: 8%;
+  }
+  header img {
+    margin: 25% 0px 0px 8%;
+  }
+  /*   ====== cta ====== */
+  .thirtyTwoWidth {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  section:nth-of-type(2) {
+    background-color: #111111;
+    padding: 8% 3% 5% 3%;
+  }
+  /*   ====== features ====== */
+  section:nth-of-type(3) h2 {
+    margin: 15% 0px -35px 8%;
+    color: #666666;
+  }
+  .twentyFiveWidth {
+    /*   border: 1px solid red; */
+    width: 100%;
+    height: 300px;
+    margin: 25px 0px 10% 0%;
+    position: relative;
+  }
+  .twentyFiveWidth img:not(.cart) {
+    /*   border: 1px solid blue; */
+    height: 80%;
+    position: relative;
+    width: 100%;
+    margin-top: -85px;
+  }
+  /*   ====== cycleClub ====== */
+  section:nth-of-type(4) h2 {
+    margin: 5% 0px 0px 0px;
+    text-align: center;
+    position: relative;
+    color: #999999;
+  }
+  section:nth-of-type(4) h2 strong {
+    margin-bottom: 0px;
+    position: relative;
+    text-align: center;
+  }
+  .twentyWidth {
+    /*  border: 1px solid red; */
+    width: 100%;
+    height: 250px;
+    margin: 0% 0% 0% 0%;
+    text-align: center;
+  }
+  .twentyWidth img {
+    margin-top: 0px;
+    width: 75px;
+    height: 75px;
+    border: 4px solid #ffffff;
+    z-index: 1;
+    position: relative;
+  }
+  /*   ====== footer ====== */
+  .social {
+    text-align: left;
+    margin: 25% -5% 5% 7%;
+    width: 100%;
+  }
+  .abttheinc {
+    float: left;
+  }
+}
+@media screen and (min-width: 768px) {
+  /*   ====== header ====== */
+  nav {
+    height: 75px;
+  }
+  nav a {
+    width: 24.55%;
+    padding-top: 4%;
+  }
+  header img {
+    margin: 15% 0px 0px 8%;
+  }
+  /*   ====== features ====== */
+  section:nth-of-type(3) h2 {
+    margin: 5% 0px -35px 8%;
+    color: #666666;
+  }
+  .twentyFiveWidth {
+    /*   border: 1px solid red; */
+    height: 450px;
+    margin-bottom: 5%;
+  }
+  .twentyFiveWidth img:not(.cart) {
+    /*   border: 1px solid blue; */
+    height: 90%;
+  }
+  .twentyWidth {
+    /* border: 1px solid red; */
+    width: 65%;
+    height: 250px;
+    margin: 0% 0% 0% 15%;
+  }
+}
+@media screen and (min-width: 992px) {
+  /*   ====== features ====== */
+  .twentyFiveWidth {
+    /*  border: 1px solid red; */
+    width: calc(100% / 2.05);
+    height: 450px;
+    margin-bottom: 5%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /*   ====== navigational header ====== */
+  nav a {
+    width: 24.55%;
+    padding-top: 2.5%;
+  }
+  /*   ====== cta ====== */
+  .thirtyTwoWidth {
+    width: calc(100% / 3.15);
+    text-align: center;
+  }
+  /*   ====== features ====== */
+  .twentyFiveWidth img:not(.cart) {
+    /*   border: 1px solid blue; */
+    width: 100%;
+    height: 350px;
+  }
+  /*   ====== cycleClub ====== */
+  .twentyWidth {
+    width: calc(100% / 3.2);
+    margin: 1% 0% 5% 0%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1500px) {
+  /*   ====== features ====== */
+  .twentyFiveWidth {
+    /*   border: 1px solid red; */
+    width: calc(100% / 4.25);
+  }
+  .twentyFiveWidth img:not(.cart) {
+    /*   border: 1px solid blue; */
+    height: 80%;
+  }
+  /*   ====== cycleClub ====== */
+  .twentyWidth {
+    width: calc(100% / 3);
+    margin: 1% 0% 5% 0%;
+  }
+
+  section:nth-of-type(4) h2 {
+    /*  border: 1px solid blue; */
+    margin: 1% 0px 0px 0px;
+  }
+  section:nth-of-type(4) {
+    /*     border: 1px solid yellow; */
+    padding: 2%;
+  }
+  @media screen and (min-width: 2000px) {
+    .twentyWidth img {
+      margin-top: -3%;
+    }
+  }
+}
