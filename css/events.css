@@ -1,0 +1,133 @@
+/**************************EVENTS**************************/
+/**********************************************************/
+#events header {
+  background: url('../images/cycleEvent2.png') no-repeat;
+  background-size: cover;
+}
+#events section:first-of-type,
+#events main,
+#events aside {
+  background-color: #111111;
+}
+#events header + div {
+  overflow: hidden;
+  background-color: #111111;
+}
+aside section {
+  padding: 5%;
+}
+aside h4 {
+  text-transform: capitalize;
+}
+main section:first-of-type img {
+  height: 100%;
+  width: 100%;
+}
+main section:first-of-type p {
+  padding: 1% 2% 1% 1%;
+}
+/* .fortyEightWidth {
+  width: calc(100% / 2.1);
+} */
+#events input[type='submit'],
+#contact input[type='submit'] {
+  width: 100px;
+  height: 40px;
+  border: 5px solid #666666;
+  background-color: transparent;
+  color: #666666;
+  border-radius: 11px;
+  text-align: center;
+}
+@media screen and (min-width: 375px) {
+  /*   ====== header ====== */
+  nav {
+    height: 150px;
+  }
+  nav a {
+    width: calc(100% / 2.1);
+    height: 75px;
+    padding-top: 8%;
+  }
+  header img {
+    margin: 25% 0px 0px 8%;
+  }
+  /*   ====== main ====== */
+  main {
+    /* border: 1px solid blue; */
+    padding: 3%;
+    border-bottom: 0.2px solid #666666;
+    margin-bottom: 5%;
+  }
+  .fortyEightWidth {
+    width: 100%;
+  }
+  /*   ====== footer ====== */
+  footer h6:nth-last-child(2) {
+    /* border: 1px solid blue; */
+    margin: 0% 0% 0% 0%;
+    font-size: 0.75rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  /*   ====== header ====== */
+  nav {
+    height: 75px;
+  }
+  nav a {
+    width: 24.55%;
+    padding-top: 4%;
+  }
+  header img {
+    margin: 15% 0px 0px 8%;
+  }
+  /*   ====== footer ====== */
+  footer {
+    margin: -5% 0% 0% 0%;
+    padding: 0%;
+    height: 680px;
+  }
+  footer section:first-of-type {
+    /* border: 1px solid aqua; */
+    height: auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  /*   ====== events ====== */
+  .fortyEightWidth {
+    width: calc(100% / 2.1);
+  }
+  /*   ====== footer ====== */
+  footer {
+    height: 730px;
+  }
+  .abttheinc li {
+    margin-top: 1%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /*   ====== footer ====== */
+  footer {
+    height: 300px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  /*   ====== events ====== */
+  .fortyEightWidth {
+    width: calc(100% / 3.2);
+  }
+  /*   ====== footer ====== */
+  footer {
+    height: 350px;
+  }
+  .abttheinc {
+    /* border: 1px solid green; */
+    margin: -2% 0px 0px 0%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /*   ====== footer ====== */
+  footer {
+    height: 400px;
+  }
+}
