@@ -3,14 +3,7 @@
 #contact header {
   background: url('../images/visitUs2.png') no-repeat;
   background-size: cover;
-}
-/* .fortySixWidth {
-  width: calc(100% / 2.1);
-} */
-
-section article:first-of-type {
-  /*  border: 1px solid red; */
-  padding: 5%;
+  margin-left: 0%;
 }
 
 #contact article:nth-of-type(2) div {
@@ -24,8 +17,8 @@ section article:first-of-type {
   color: #666666;
 }
 #contact section:nth-of-type(2) h1 {
-  /*   border: 1px solid, aqua; */
-  font-size: 400%;
+  /*  border: 1px solid, aqua; */
+  font-size: 500%;
   text-align: center;
   margin-bottom: -3%;
 }
@@ -36,104 +29,94 @@ section article:first-of-type {
 #directions {
   display: none;
 }
-
-/*f ieldset .cellRow {
-  display: inline-table;
-  margin-top: -44px;
+#gtDrctnBtn {
   height: 75px;
-  width: auto;
-  padding-left: 2%;
+  background-color: forestgreen;
+  color: white;
+  border-radius: 10px;
+  padding-bottom: 1%;
+  border: none;
 }
-.container {
-  margin: -100px 0px -100px -5%;
-} */
+
+fieldset {
+  height: 325px;
+  border: none;
+}
+fieldset div {
+  margin-top: 3%;
+}
+
+#contact form {
+  border: 50px solid #111111;
+  width: 85%;
+  height: auto;
+}
 
 /*input text area*/
-/* #name,
+#name,
 #help,
 #phone,
+#contact input[type='text'],
+#contact input[type='tel'],
 #contact input[type='email'] {
   background-color: #666666;
+  color: white;
+  width: 100%;
+  height: 30px;
 }
-#contact input[type='email'] {
-  width: 130%;
+#email {
+  /*   border: 1px solid red; */
+  margin-top: -15%;
 }
-#phone {
-  width: 18%;
-}
-#name,
-#help {
-  width: 40%;
-}
-label {
-  margin-left: -38%;
-}
-#contact form {
-  border: 75px solid #111111;
-} */
-
-/*labels*/
-/* .email,
-.name,
-.phone,
-.help {
-  text-transform: capitalize;
-  color: #ffffff;
-}
-.help {
-  margin-right: -11%;
-}
-.phone {
-  margin-right: -13%;
-}
-.name {
-  margin-right: -1%;
-}
-
 .submit {
   width: 500px;
   height: 40px;
-
   border: none;
-  background-color: #ffffff;
-  color: #666666;
+  background-color: red;
+  color: white;
   font-size: 100%;
   border-radius: 11px;
   text-align: center;
-} */
+}
 
 @media screen and (min-width: 375px) {
-  /*   ====== header ====== */
-  #contact header {
-    background: url('../images/visitUs2.png') no-repeat;
-    background-size: cover;
-    margin-left: 0%;
-  }
-  /*   ====== contact ====== */
-
+  /*   ====== visit us ====== */
   .fortySixWidth {
     /*    border: 1px solid blue; */
     width: 100%;
   }
+  section article:first-of-type {
+    /*  border: 1px solid blue; */
+    margin-top: 5%;
+    height: 375px;
+    text-align: center;
+    padding: 1%;
+  }
   section article:first-of-type h1 {
-    font-size: 250%;
-    margin-top: -10%;
+    font-size: 200%;
+    margin-top: 10%;
   }
   .fortySixWidth img {
     border-radius: 50%;
-    width: 100%;
-    height: 100%;
-    margin-left: 0%;
+    width: 95%;
+    height: 95%;
+    margin-left: 2.5%;
   }
   /*   ====== form ====== */
-  form {
-    margin-top: 30%;
-    width: 100%;
+  #contact section:nth-of-type(2) h1 {
+    /*  border: 1px solid, aqua; */
+    font-size: 400%;
+  }
+  #contact form {
+    margin: 30% 0% 10% 0%;
+    border: 25px solid #111111;
+    height: 310px;
   }
   fieldset {
-    /*    text-align: center;
-    margin-top: 30%;
-    padding-bottom: 10%; */
+    height: 310px;
+  }
+  .submit {
+    width: 100%;
   }
   /*   ====== footer ====== */
   footer h6:nth-last-child(2) {
@@ -158,66 +141,156 @@ label {
     width: 24.55%;
     padding-top: 4%;
   }
-  header img {
-    margin: 15% 0px 0px 8%;
+  #contact header {
+    margin-bottom: 5%;
   }
-  #collections h3 {
-    margin-top: 7%;
-  }
-  /*   ====== contact ====== */
+  /*   ====== visit us ====== */
   .fortySixWidth {
     width: calc(100% / 2.1);
   }
   .fortySixWidth img {
-    width: 135%;
-    height: 135%;
-    margin-left: 40%;
+    float: left;
+    width: 90%;
+    height: 90%;
+    margin-left: 10.5%;
   }
-  form {
-    margin: 18% 0% 5% 0%;
-    width: 100%;
+  section article:first-of-type {
+    float: right;
+    /*  border: 1px solid red; */
+    padding: 1% 10% 1% 0%;
+    margin: 0% 0% 0% 3%;
+    text-align: center;
+  }
+  section article:first-of-type h1 {
+    font-size: 200%;
+    margin-top: 10%;
+  }
+  /*   ====== contact ====== */
+  #contact form {
+    margin: 15% 0%;
+  }
+}
+@media screen and (min-width: 992px) {
+  /*   ====== visit us ====== */
+  section article:first-of-type {
+    /*  border: 1px solid red; */
+    margin: 5% 0% 0% 3%;
+    padding-right: 15%;
+  }
+  /*   ====== form ====== */
+  #contact section:nth-of-type(2) h1 {
+    /*  border: 1px solid, aqua; */
+    font-size: 500%;
+  }
+  #contact form {
+    margin: 10% 0% 10% 4%;
+    border: 50px solid #111111;
+    height: 360px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  /*   ====== contact ====== */
+  /*   ====== header ====== */
+  nav a {
+    padding-top: 2.5%;
+  }
+  /*   ====== visit us ====== */
   .fortySixWidth img {
-    width: 55%;
-    height: 55%;
-    margin-left: 80%;
+    float: left;
+    width: 75%;
+    height: 75%;
+    margin-left: 25%;
+  }
+  section article:first-of-type {
+    /*  border: 1px solid red; */
+    margin: 7% 0% 0% 3%;
+    padding-right: 15%;
+  }
+  /*   ====== contact ====== */
+  #contact section:nth-of-type(2) {
+    /*     border: 1px solid aqua; */
+    margin-top: -5%;
+  }
+  /*   ====== footer ====== */
+  footer {
+    margin: -3% 0% 0% 0%;
+    padding: 1%;
+    height: 350px;
+  }
+  footer section:first-of-type {
+    /* border: 1px solid aqua; */
+    height: auto;
+    width: 90%;
+    margin-left: 8%;
+  }
+  footer h6:nth-last-child(2) {
+    /* border: 1px solid blue; */
+    margin: 7% 0% 0% 0%;
+  }
+  .abttheinc {
+    /* border: 1px solid green; */
+    margin: 7% 0px 0px 0px;
   }
 }
 @media screen and (min-width: 1500px) {
   /*   ====== header ====== */
   nav a {
-    width: 24.55%;
-    padding-top: 1.5%;
+    padding-top: 2%;
+  }
+  /*   ====== visit us ====== */
+  .fortySixWidth img {
+    width: 65%;
+    height: 65%;
+    margin-left: 35%;
+  }
+  section article:first-of-type {
+    /*  border: 1px solid red; */
+    margin: 7% 0% 0% 3%;
+    padding-right: 15%;
+  }
+  /*   ====== form ====== */
+  fieldset {
+    height: 350px;
+  }
+  #contact form {
+    height: 400px;
+  }
+  /*   ====== footer ====== */
+  .abttheinc {
+    /* border: 1px solid green; */
+    margin: 5% 0px 0px 0px;
   }
 }
 @media screen and (min-width: 2000px) {
   /*   ====== header ====== */
   nav a {
-    width: 24.55%;
     padding-top: 1.5%;
   }
-  /*   ====== contact ====== */
-  section {
-    /*  border: 1px solid blue; */
+  header img {
+    margin-top: 5%;
+  }
+  /*   ====== visit us ====== */
+  .fortySixWidth img {
+    width: 60%;
+    height: 60%;
+    margin-left: 40%;
   }
   section article:first-of-type {
     /* border: 1px solid red; */
-    /* margin-left: 16%; */
+    margin: 7% 0% 0% 3%;
+    padding-right: 15%;
   }
-  .fortySixWidth img {
-    width: 50%;
-    height: 50%;
-    margin-left: 83%;
-    /*   margin: 5% 10%; */
+  /*   ====== form ====== */
+  fieldset {
+    height: 350px;
   }
+  #contact form {
+    height: 440px;
+    border: 75px solid #111111;
+  }
+
   /*   ====== footer ====== */
   footer {
-    margin: 0% 0% 0% 0%;
-    padding: 1%;
     height: 450px;
   }
   footer section:first-of-type {
