@@ -78,7 +78,8 @@ li {
   list-style: none;
   font-size: 100%;
   text-decoration-line: none;
-  font-weight: normal;
+  /*   font-weight: normal; */
+  font-weight: 100;
   color: inherit;
   box-sizing: border-box;
 }
@@ -214,6 +215,7 @@ footer h6 {
     margin: 0% 0% 0% -4%;
     font-size: 0.75rem;
   }
+
   .abttheinc li {
     /* border: 1px solid green; */
     float: left;
