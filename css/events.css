@@ -93,6 +93,10 @@ main section:first-of-type p {
   }
 }
 @media screen and (min-width: 992px) {
+  /*   ====== header ====== */
+  nav a {
+    padding-top: 3%;
+  }
   /*   ====== events ====== */
   .fortyEightWidth {
     width: calc(100% / 2.1);
@@ -112,6 +116,10 @@ main section:first-of-type p {
   }
 }
 @media screen and (min-width: 1500px) {
+  /*   ====== header ====== */
+  nav a {
+    padding-top: 2%;
+  }
   /*   ====== events ====== */
   .fortyEightWidth {
     width: calc(100% / 3.2);
@@ -126,6 +134,10 @@ main section:first-of-type p {
   }
 }
 @media screen and (min-width: 1200px) {
+  /*   ====== header ====== */
+  nav a {
+    padding-top: 1.5%;
+  }
   /*   ====== footer ====== */
   footer {
     height: 400px;
